@@ -1,0 +1,24 @@
+{
+  "name": "yt-downloader-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Benjamin Meier",
+  "homepage": "https://youtubdle.com",
+  "license": "MIT",
+  "dependencies": {
+    "content-disposition": "^0.5.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "googleapis": "^120.0.0",
+    "mongoose": "^7.3.2",
+    "socket.io": "^4.7.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
